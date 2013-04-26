@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Mobile Site</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
+
+  </head>
+  <body>
+	  
+	  <div class="slider">
+	    <ul>
+	      <li>
+	        <img src="img/slide-1.jpg">
+	        <span class="slide-text">← Slide me</span>
+	      </li>
+	      <li>
+	        <img src="img/slide-2.jpg">
+	      </li>
+	      <li>
+	        <img src="img/slide-3.jpg">
+	      </li>
+	    </ul>
+	  </div>
+	  
+	  <nav class="bar-tab">
+	    <ul class="tab-inner">
+	      <li class="tab-item active">
+	        <a href="#">
+	          <img class="tab-icon" src="img/icon-home.png">
+	          <div class="tab-label">Home</div>
+	        </a>
+	      </li>
+	      <li class="tab-item">
+	        <a href="#">
+	          <img class="tab-icon" src="img/icon-profile.png">
+	          <div class="tab-label">Full Site</div>
+	        </a>
+	      </li>
+	      <li class="tab-item">
+	        <a href="#">
+	          <img class="tab-icon" src="img/icon-messages.png">
+	          <div class="tab-label">About</div>
+	        </a>
+	      </li>
+	      <li class="tab-item">
+	        <a href="#">
+	          <img class="tab-icon" src="img/icon-hamburger.png">
+	          <div class="tab-label">Photos</div>
+	        </a>
+	      </li>
+	      <li class="tab-item">
+	        <a href="#">
+	          <img class="tab-icon" src="img/icon-settings.png">
+	          <div class="tab-label">Useless</div>
+	        </a>
+	      </li>
+	    </ul>
+	  </nav>
+	  
+	  
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+  <header class="bar-title">
+    <h1 class="title">My Mobile Site</h1>
+  </header>
+
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+    <div class="content-padded">
+    </div>
+	<h1>Home</h1>
+	
+    <div class="content-padded">
+    </div>
+	<ul class="list">
+	  <li class="list-divider"></li>
+	</ul>
+    <div class="content-padded">
+    </div>
+	<h2>This is Content</h2>
+    <div class="content-padded">
+    </div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat, lacus sit amet congue egestas, nulla dolor congue enim, quis consequat eros augue nec sem. Duis ultricies mauris id est aliquet adipiscing ut sed metus. Nam risus ipsum, pharetra id aliquam nec, facilisis nec tortor. Suspendisse nisi tortor, dictum sit amet pulvinar venenatis, tincidunt ac lacus. Donec suscipit, diam non porta egestas, elit metus egestas urna, eget luctus arcu neque lobortis ante. Donec non mi elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus eros et tellus molestie aliquam. Nam non tellus arcu. Morbi sed vulputate turpis. Ut ac quam quis turpis ultricies aliquet ac in velit. Proin malesuada faucibus nisl ut suscipit. Vivamus vel scelerisque elit. Pellentesque id nisi sed nisi elementum pharetra. Donec scelerisque ultricies nulla, id cursus sapien faucibus nec. Aliquam enim quam, semper tempor rutrum ac, malesuada ac leo. Curabitur non lorem magna. Cras eleifend augue at ipsum vestibulum dignissim. Etiam ligula massa, blandit in rutrum eget, placerat eu orci. Integer at tempor nisl. Maecenas laoreet est eget ligula condimentum at bibendum neque scelerisque.</p>
+    <div class="content-padded">
+    </div>
+	
+	<ul class="list">
+	  <li class="list-divider"></li>
+	</ul>
+    <div class="content-padded">
+    </div>
+	<h2>These are my pictures</h2>
+    <div class="content-padded">
+    </div>
+	<ul class="list">
+	  <li>
+	    <a href="#">
+	      Image item 1
+	      <span class="chevron"></span>
+	    </a>
+	  </li>
+	  <li>
+	    <a href="#">
+	      Image item 2
+	      <span class="chevron"></span>
+	    </a>
+	  </li>
+	  <li>
+	    <a href="#">
+	      Image item 3
+	      <span class="chevron"></span>
+	    </a>
+	  </li>
+	  <li>
+	    <a href="#">
+	      Image item 4
+	      <span class="chevron"></span>
+	    </a>
+	  </li>
+	</ul>
+  </div>
+
+  </body>
+</html>
